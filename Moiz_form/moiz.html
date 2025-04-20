@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="ref-number">Ref No: 11573</div>
+
+        <header class="header">
+            <div class="school-info">
+                <img src="./Images/book.png" alt="Book Icon" class="book-icon" style="width: 50px; height: 60px; background: transparent; border: none;">
+                <address class="school-details">
+                    <strong>ABC Institute of Technology</strong><br>
+                    No 11/472, Galle Road,<br>
+                    Mountleville<br><br>
+                    Tel: 011 123231<br>
+                    Email: <a href="mailto:institute@ABC@gmail.com">institute@ABC@gmail.com</a>
+                </address>
+            </div>
+            <div class="user-icon">
+                <img src="./Images/face.png" alt="User Icon" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </header>
+
+        <h1 class="form-title">Student Registration Form</h1>
+
+        <section>
+            <h2 class="section-header">Student Information</h2>
+
+            <div class="form-row">
+                <label class="form-label">Full Name:</label>
+                <input type="text" class="form-input" placeholder="Enter full name">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Date of Birth:</label>
+                <input type="date" class="form-input">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Gender:</label>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Nationality:</label>
+                <input type="text" class="form-input" placeholder="Enter nationality">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Contact Information:</label>
+                <input type="tel" class="form-input" placeholder="Phone number or email">
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-header">Parent/Guardian Information</h2>
+
+            <div class="form-row">
+                <label class="form-label">Name(s):</label>
+                <input type="text" class="form-input" placeholder="Parent or Guardian Name">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Relationship to Student:</label>
+                <input type="text" class="form-input" placeholder="E.g. Father, Mother, etc.">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Contact Information (Phone, Email):</label>
+                <input type="text" class="form-input" placeholder="Phone number or email">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Emergency Contact:</label>
+                <input type="text" class="form-input" placeholder="Emergency contact details">
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-header">Education Information</h2>
+
+            <div class="form-row">
+                <label class="form-label">School/Institution:</label>
+                <input type="text" class="form-input" placeholder="Enter school name">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Graduation Date (if applicable):</label>
+                <input type="date" class="form-input">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">How did you hear about us?</label>
+                <input type="text" class="form-input" placeholder="E.g. Friend, Internet, etc.">
+            </div>
+
+            <div class="form-row">
+                <label class="form-label">Why are you interested in our program?*</label>
+                <input type="text" class="form-input" placeholder="Your reason here...">
+            </div>
+        </section>
+
+        <section class="agreement">
+            <p>Do you agree to the terms and conditions of enrollment?</p>
+            <div class="thumbs">
+                <img src="./Images/tum_up.png" alt="Agree" style="width: 20px; height: 20px;">
+                <img src="./Images/tum_down.png" alt="Disagree" style="width: 20px; height: 20px;">
+            </div>
+            <div class="terms-text">* Terms and Conditions</div>
+        </section>
+
+        <section class="signature-area">
+            <p>Signature of the student and, if the student is a minor, a parent or guardian</p>
+            <div class="signature-box"></div>
+        </section>
+    </div>
+</body>
+</html>
